@@ -1,10 +1,8 @@
-package test;
+package maventestapp;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Unit test for simple App.
@@ -34,15 +32,12 @@ public class AppTest
      * Rigourous Test :-)
      */
     public void testApp()
+    {
+        assertTrue( true );
+    }
+
+    public void test2()
 {
     assertTrue( true );
 }
-
-   
-
-    public void testApp3()
-    {
-
-        assertEquals(1, 1);
-    }
 }
