@@ -39,5 +39,6 @@ public class AppTest
     public void test2()
 {
     assertTrue( true );
+    //change
 }
 }
