@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8080
+ADD \maventestapp7.jar maventestapp7.jar
+ENTRYPOINT ["java","-jar","maventestapp7.jar"]
